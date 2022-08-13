@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel ="stylesheet" href ="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a sketch project</title>
+</head>
+<body>
+    <h1>ETCH A SKETCH</h1>
+    <div class="container">
+      <div id="controls">
+         <label for="color">Pick Color:</label>
+         <input type="color" id="color" name="color" value="#8FDC50">
+         <button class="rgb">RGB</button>
+         <button class="erase">ERASE</button>
+         <button class ='reset'>RESET</button>
+         <button class="toggle">TOGGLE GRID</button>
+         <label for="slider" class="slide-value">GRID SIZE: 16 x 16 </label>
+         <input type="range" min ="1" max = "100" class="slider" name="slider" value="16">
+      </div>
+      <div id="sketch-container" class="sketch-container"></div>
+    </div>
+    <footer><a href="https://github.com/IgweonuEbuka/sketch.git">Made by: Igweonu Ebuka</a></footer>
+   <script src ="script.js" defer></script>
+</body>
+</html>
